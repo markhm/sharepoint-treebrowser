@@ -37,7 +37,7 @@ Requires Java 1.8 or higher.
 
 Based on <a href="http://prefuse.org">prefuse</a>, a visualisation library for Java developed by <a href="http://jheer.org">Jeffrey Heer</a>.
 
-## Preparing data
+## Preparing data and running
 Prepare metadata you would like to visualise as follows:
   1. Create a custom view in the SharePoint library where all (relevant) columns are selected
   2. Export the metadata to Excel and save as xlsx.
@@ -45,11 +45,11 @@ Prepare metadata you would like to visualise as follows:
   4. Drop the xls file in a subdirectory called 'data'
   5. Start the jar file with 'java -jar [filename]'
   
-## Download and run
+## Download
 The SharePoint TreeBrowser is available as fat jar via:@@, currently versioned by date.
 
 ## Version history
 To be added.
 
 ## Known issues
-- Search does not support looking up consecutive keywords well. Change the depth on the depth slider to look up another keyword, or restart the application. 
+- Search does not support looking up consecutive keywords well. Change the depth on the depth slider to change to update the visualisation to the new search results, or restart the application. 
