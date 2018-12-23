@@ -10,6 +10,7 @@ _This page is work in progress and the release of the SharePoint TreeBrowser is 
 The SharePoint TreeBrowser features:
 - Tree-based visualisation of documents in one or more SharePoint libraries
 - Seamless zooming in/out to quickly understand large data structures and their relevant details
+- Selecting Degree-of-Interest depth, to show more or less nodes surrounding the selected note
 - Searching for documents based on keywords, expanding the tree to show search results
 - Turn on coloring layers to visualise:
   - **Document age** - Change date minus Creation date
@@ -29,17 +30,20 @@ The SharePoint TreeBrowser features:
   - **Forretningsenhed** - Business unit
   - **Indholdstype** - Content type
 
+Please indicate if you have other needs.
+
 ## Prerequisites and acknowledgements
 Requires Java 1.8 or higher. 
 
-Built on <a href="http://prefuse.org">prefuse</a>, a visualisation library for Java developed by <a href="http://jheer.org">Jeffrey Heer</attr>. 
+Based on <a href="http://prefuse.org">prefuse</a>, a visualisation library for Java developed by <a href="http://jheer.org">Jeffrey Heer</a>.
 
 ## Preparing data
 Prepare metadata you would like to visualise as follows:
   1. Create a custom view in the SharePoint library where all (relevant) columns are selected
   2. Export the metadata to Excel and save as xlsx.
-  3. Open the xlsx in Excel and Save as xls.
+  3. Open the xlsx in Excel and Save as xls (older data format).
   4. Drop the xls file in a subdirectory called 'data'
+  5. Start the jar file with 'java -jar [filename]'
   
 ## Download and run
 The SharePoint TreeBrowser is available as fat jar via:@@, currently versioned by date.
