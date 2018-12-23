@@ -29,7 +29,7 @@ The SharePoint TreeBrowser features:
 ## Prerequisites and acknowledgements
 Requires Java 1.8 or higher. 
 
-Built on <abbr title="https://prefuse.org">prefuse</abbr>, a visualisation library for Java developed by <attr title="http://jheer.org">Jeffrey Heer</attr>. 
+Built on <a href="http://prefuse.org">prefuse</a>, a visualisation library for Java developed by <a href="http://jheer.org">Jeffrey Heer</attr>. 
 
 ## Preparing data
 Prepare metadata you would like to visualise as follows:
@@ -41,5 +41,6 @@ Prepare metadata you would like to visualise as follows:
 ## Download and run
 The SharePoint TreeBrowser is available as fat jar via:@@, currently versioned by date.
 
-
+## Version history
+To be added.
 
