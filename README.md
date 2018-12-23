@@ -6,7 +6,7 @@ This tool visualises exported metadata exported from one or more SharePoint libr
 
 _This page is work in progress and the release of the SharePoint TreeBrowser is pending._
 
-## Features
+## Features and how to use
 The SharePoint TreeBrowser features:
 - Tree-based visualisation of documents in one or more SharePoint libraries
 - Seamless zooming in/out to quickly understand large data structures and their relevant details
@@ -29,10 +29,15 @@ The SharePoint TreeBrowser features:
   - **Flyt til arkiv** - Archived (Y/N)
   - **Forretningsenhed** - Business unit
   - **Indholdstype** - Content type
-
 Please indicate if you have other needs.
 
-## Prerequisites and acknowledgements
+How to use:
+- Observe that the tree at the first level shows the repository, followed by the particular library at the next level
+- Use the depth slider to show a larger part of the tree, or select a particular node to uncover a deeper part of the tree
+- Select a metadata column (Group) and turn on the visualisation (tick box)
+- Reset by selecting the root node, setting depth to 1 and clicking the Center button
+
+## Prerequisites and acknowledgement
 Requires Java 1.8 or higher. 
 
 Based on <a href="http://prefuse.org">prefuse</a>, a visualisation library for Java developed by <a href="http://jheer.org">Jeffrey Heer</a>.
