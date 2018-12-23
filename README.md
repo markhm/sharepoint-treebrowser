@@ -34,8 +34,13 @@ Please indicate if you have other needs.
 How to use:
 - Observe that the tree at the first level shows the repository, followed by the particular library at the next level
 - Use the depth slider to show a larger part of the tree, or select a particular node to uncover a deeper part of the tree
-- Select a metadata column (Group) and turn on the visualisation (tick box)
+- Click various nodes to see the tree parts expand
+- Pan by holding the left mouse button (not on a node) and moving
+- Zoom by holding the right mouse button and moving up or down
+- Double click to fit to zoom
+- Select a metadata column (Group) and turn on the visualisation (tick box) and observe the most used elements in the legend
 - Reset by selecting the root node, setting depth to 1 and clicking the Center button
+- Enter a keyword in the search box, click the Expand tick box to expand
 
 ## Prerequisites and acknowledgement
 Requires Java 1.8 or higher. 
