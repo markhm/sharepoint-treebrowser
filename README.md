@@ -1,8 +1,8 @@
 SharePoint TreeBrowser
 ======================
-_Has your SharePoint library become slightly unorganised over time?_
+_Have your SharePoint libraries become slightly unorganised over time?_
 
-This tool visualises exported metadata exported from one or more SharePoint libraries. It will help you understand 1) where documents are, 2) which structure or governing rules are missing and 3) what needs to be done to bring a bit of order and keep your teams productive. 
+This tool visualises exported metadata exported from one or more SharePoint libraries. It will help you understand 1) where documents are, 2) which structure and governing rules are missing and 3) what needs to be done to bring a bit of order and keep your teams productive. 
 
 _This page is work in progress and the release of the SharePoint TreeBrowser is pending._
 
