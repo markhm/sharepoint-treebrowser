@@ -10,7 +10,7 @@ _This page is work in progress and the release of the SharePoint TreeBrowser is 
 The SharePoint TreeBrowser features:
 - Tree-based visualisation of documents in one or more SharePoint libraries
 - Seamless zooming in/out to quickly understand large data structures and their relevant details
-- Additionally visualises by color:
+- Turn on coloring layers to visualise:
   - **Document age** - Change date minus Creation date
   - **Modification year**
   - Metadata top 10 - Most frequently used metadata elements per column
