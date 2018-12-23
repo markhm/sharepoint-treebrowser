@@ -62,4 +62,6 @@ The SharePoint TreeBrowser is available as fat jar via:@@, currently versioned b
 To be added.
 
 ## Known issues
-- Search does not support looking up consecutive keywords well. Change the depth on the depth slider to change to update the visualisation to the new search results, or restart the application. 
+- Search does not support looking up consecutive keywords well. Change the depth on the depth slider to change to update the visualisation to the new search results, or restart the application
+- When running the ActionList, the prefuse visualisation framework sometimes throws a NullPointerException at prefuse.data.column.ExpressionColumn.isCacheValid(..) that can be ignored
+- 
