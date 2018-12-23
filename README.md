@@ -1,17 +1,28 @@
 ## SharePoint TreeBrowser
 _Has your SharePoint library become slightly unorganised over time?_
 
-This tool visualises exported metadata exported from one or more SharePoint libraries. It will help you understand 1) where documents are, 2) which structure or governing rules are missing and 3) what needs to be done to bring a bit of order. 
+This tool visualises exported metadata exported from one or more SharePoint libraries. It will help you understand 1) where documents are, 2) which structure or governing rules are missing and 3) what needs to be done to bring a bit of order and keep your teams productive. 
 
 ## Prerequisites and acknowledgements
-This tool requires on Java 1.8.
+Requires Java 1.8 or higher. 
 
-The SharePoint TreeBrowser was built using prefuse.org, a visualisation library for Java. 
+Built on <abbr title="https://prefuse.org">prefuse</abbr>, a visualisation library for Java developed by <attr title="http://jheer.org">Jeffrey Heer</attr>. 
 
 ## Features
 The SharePoint TreeBrowser features:
 - Tree-based visualisation of documents in one or more SharePoint libraries
-- Layering 
+- Seamless zoom in/out to quickly understand large data structures and their relevant details
+- Currently supports the following Danish metadata colums:
+  - Oprettet (Creation date)
+  - Oprettet af (Created by)
+  - Ændret (Change date)
+  - Ændret af (Changed by)
+  - Arbejdspakke (Work package)
+  - Produkt (Product)
+  - Produkt type (Product type)
+  - Flyt til arkiv (Archived Y/N)
+  - Forretningsenhed (Business unit)
+  - Indholdstype (Content type)
 
 ## Download
 The SharePoint TreeBrowser is available as fat jar via:@@.
