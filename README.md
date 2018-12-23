@@ -11,20 +11,22 @@ The SharePoint TreeBrowser features:
 - Tree-based visualisation of documents in one or more SharePoint libraries
 - Seamless zooming in/out to quickly understand large data structures and their relevant details
 - Additionally visualises by color:
-  - Document age (Change date minus Creation date)
-  - Modification year
+  - **Document age** - Change date minus Creation date
+  - **Modification year**
   - Metadata top 10 - Most frequently used metadata elements per column
 - Supports the following Danish metadata colums:
-  - Oprettet (Creation date)
-  - Oprettet af (Created by)
-  - Ændret (Change date)
-  - Ændret af (Changed by)
-  - Arbejdspakke (Work package)
-  - Produkt (Product)
-  - Produkt type (Product type)
-  - Flyt til arkiv (Archived Y/N)
-  - Forretningsenhed (Business unit)
-  - Indholdstype (Content type)
+  - **Navn** - Name
+  - **Sti** - Tree position
+  - **Oprettet** - Creation date
+  - **Oprettet af** - Created by
+  - **Ændret** - Change date
+  - **Ændret af** - Changed by
+  - **Arbejdspakke** - Work package
+  - **Produkt** - Product
+  - **Produkt type** - Product type
+  - **Flyt til arkiv** - Archived (Y/N)
+  - **Forretningsenhed** - Business unit
+  - **Indholdstype** - Content type
 
 ## Prerequisites and acknowledgements
 Requires Java 1.8 or higher. 
