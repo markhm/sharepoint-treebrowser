@@ -1,6 +1,6 @@
-SharePoint Tree Browser
+SharePoint Tree Browser (DK version)
 ======================
-_Have your SharePoint libraries become slightly unorganised over time?_
+_Have your SharePoint libraries become slightly unorganised?_
 
 This tool visualises exported metadata exported from one or more SharePoint libraries. It will help you understand 1) where documents are, 2) which structure and governing rules are missing and 3) what needs to be done to bring a bit of order and keep your teams productive. 
 
@@ -16,7 +16,7 @@ The SharePoint TreeBrowser features:
   - **Document age** - Change date minus Creation date
   - **Modification year**
   - Metadata top 10 - Most frequently used metadata elements per column
-- Supports the following Danish metadata colums:
+- Currently supports the following Danish metadata colums:
   - **Navn** - Name
   - **Sti** - Tree position
   - **Oprettet** - Creation date
@@ -29,20 +29,21 @@ The SharePoint TreeBrowser features:
   - **Flyt til arkiv** - Archived (Y/N)
   - **Forretningsenhed** - Business unit
   - **Indholdstype** - Content type
-Please indicate if you have other needs.
+Please let me know if you would like to see other languages supported. 
 
 How to use:
-- Observe that the tree at the first level shows the repository, followed by the particular library at the next level
-- Use the depth slider to show a larger part of the tree, or select a particular node to uncover a deeper part of the tree
-- Click various nodes to see the tree parts expand
-- Pan by holding the left mouse button (not on a node) and moving
-- Zoom by holding the right mouse button and moving up or down
-- Double click to fit to zoom
-- Select a metadata column (Group) and turn on the visualisation (tick box) and observe the most used elements in the legend
-- Reset by selecting the root node, setting depth to 1 and clicking the Center button
-- Enter a keyword in the search box, click the Expand tick box to expand
+- Observe that the tree at the first level shows the repository, followed by the particular library at the next level.
+- Use the depth slider to show a larger part of the tree, or select a particular node to uncover a deeper part of the tree.
+- Click various nodes to see the tree parts expand.
+- Pan by holding the left mouse button (not on a node) and moving.
+- Zoom by holding the right mouse button and moving up or down.
+- Double click to fit to zoom.
+- Select a metadata column (Group) and turn on the visualisation (tick box) and observe the most used elements in the legend.
+- Reset by selecting the root node, setting depth to 1 and clicking the Center button.
+- Enter a keyword in the search box, click the Expand tick box to expand.
+- Click the Center button to center the visualisation in case you loose perspective.
 
-## Prerequisites and acknowledgement
+## Prerequisites and acknowledgements
 Requires Java 1.8 or higher. 
 
 Based on <a href="http://prefuse.org">prefuse</a>, a visualisation library for Java developed by <a href="http://jheer.org">Jeffrey Heer</a>.
@@ -62,6 +63,6 @@ The SharePoint TreeBrowser is available as fat jar via:@@, currently versioned b
 To be added.
 
 ## Known issues
-- Search does not support looking up consecutive keywords well. Change the depth on the depth slider to change to update the visualisation to the new search results, or restart the application
-- When running the ActionList, the prefuse visualisation framework sometimes throws a NullPointerException at prefuse.data.column.ExpressionColumn.isCacheValid(..) that can be ignored
+- Search does not support looking up consecutive keywords well. Change the depth on the depth slider to change to update the visualisation to the new search results, or restart the application.
+- When running the ActionList, the prefuse visualisation framework sometimes throws a NullPointerException at prefuse.data.column.ExpressionColumn.isCacheValid(..), which can be ignored.
 - 
