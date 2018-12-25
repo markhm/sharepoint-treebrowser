@@ -31,7 +31,7 @@ The SharePoint TreeBrowser features:
   - **Flyt til arkiv** - Archived (Y/N)
   - **Forretningsenhed** - Business unit
   - **Indholdstype** - Content type
-Support the English is under development prepared. Please let me know if you would like to see other languages supported. 
+Please let me know if you would like to see other languages supported, in particular: send me the names of the metadata columns. 
 
 How to use:
 - Observe that the tree at the first level shows the repository, followed by the particular library at the next level.
@@ -46,7 +46,9 @@ How to use:
 - Click the Center button to center the visualisation in case you loose perspective.
 
 ## Prerequisites and acknowledgements
-Requires Java 1.8 or higher. The SharePoint Tree Browser was developed on a display with a 1680 by 1050 resolution. Screen options or buttons might have moved or may be hidden when you are running on a different resolution. 
+Requires Java 1.8 or higher. 
+
+The SharePoint Tree Browser was developed on a display with a 1680 by 1050 resolution. Screen options or buttons might have moved or may be hidden when you are running on a different resolution. 
 
 Based on <a href="http://prefuse.org">prefuse</a>, a visualisation library for Java developed by <a href="http://jheer.org">Jeffrey Heer</a>.
 
