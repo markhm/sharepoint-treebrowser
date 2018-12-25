@@ -68,5 +68,4 @@ The SharePoint TreeBrowser is available as executable jar via:@@.
 
 ## Known issues
 - Search does not support looking up consecutive keywords well. Change the depth on the depth slider to change to update the visualisation to the new search results, or restart the application.
-- When running the ActionList, the prefuse visualisation framework sometimes throws a NullPointerException at prefuse.data.column.ExpressionColumn.isCacheValid(..), which can be ignored.
-- 
+- When running the ActionList, the prefuse visualisation framework sometimes throws a NullPointerException, which can be ignored.
