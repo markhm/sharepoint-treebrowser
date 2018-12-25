@@ -1,8 +1,10 @@
-SharePoint Tree Browser (DK version)
+SharePoint Tree Browser (DK-DA version)
 ======================
 _Have your SharePoint libraries become slightly unorganised?_
 
 This tool visualises exported metadata exported from one or more SharePoint libraries. It will help you understand 1) where documents are, 2) which structure and governing rules are missing and 3) what needs to be done to bring a bit of order and keep your teams productive. 
+
+_Currently, the SharePoint Tree Browser only supports Danish._
 
 _This page is work in progress and the release of the SharePoint TreeBrowser is pending._
 
@@ -29,7 +31,7 @@ The SharePoint TreeBrowser features:
   - **Flyt til arkiv** - Archived (Y/N)
   - **Forretningsenhed** - Business unit
   - **Indholdstype** - Content type
-Please let me know if you would like to see other languages supported. 
+Support the English is under development prepared. Please let me know if you would like to see other languages supported. 
 
 How to use:
 - Observe that the tree at the first level shows the repository, followed by the particular library at the next level.
