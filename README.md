@@ -46,7 +46,7 @@ How to use:
 - Click the Center button to center the visualisation in case you loose perspective.
 
 ## Prerequisites and acknowledgements
-Requires Java 1.8 or higher. 
+Requires Java 1.8 or higher. The SharePoint Tree Browser was developed on a display with a 1680 by 1050 resolution. Screen options or buttons might have moved or may be hidden when you are running on a different resolution. 
 
 Based on <a href="http://prefuse.org">prefuse</a>, a visualisation library for Java developed by <a href="http://jheer.org">Jeffrey Heer</a>.
 
@@ -59,10 +59,10 @@ Prepare metadata you would like to visualise as follows:
   5. Start the jar file with 'java -jar [filename]'
   
 ## Download
-The SharePoint TreeBrowser is available as fat jar via:@@, currently versioned by date.
+The SharePoint TreeBrowser is available as executable jar via:@@.
 
 ## Version history
-To be added.
+- _First release pending_ - @@
 
 ## Known issues
 - Search does not support looking up consecutive keywords well. Change the depth on the depth slider to change to update the visualisation to the new search results, or restart the application.
