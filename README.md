@@ -61,7 +61,7 @@ Prepare metadata you would like to visualise as follows:
   5. Start the jar file with 'java -jar [filename]'
   
 ## Download
-The SharePoint Tree Browser is available as executable jar via https://github.com/markhm/sharepoint-treebrowser/blob/master/binaries/SharePointTreeBrowser-20190102.jar.
+The SharePoint Tree Browser is available as executable jar via [this link](https://github.com/markhm/sharepoint-treebrowser/blob/master/binaries/SharePointTreeBrowser-20190102.jar).
 
 ## Version history
 - 20190102 - Testing the release process and the first release.
