@@ -2,7 +2,7 @@ SharePoint Tree Browser (DK-DA version)
 ======================
 _Have your SharePoint libraries become slightly unorganised?_
 
-[Imgur](https://i.imgur.com/VKzTcGD.png)
+!(https://i.imgur.com/VKzTcGD.png "SharePoint Tree Browser example")
 
 This tool visualises exported metadata exported from one or more SharePoint libraries. It will help you understand 1) where documents are, 2) which structure and governing rules are missing and 3) what needs to be done to bring a bit of order and keep your teams productive. 
 
