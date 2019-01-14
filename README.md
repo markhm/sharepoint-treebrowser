@@ -48,7 +48,7 @@ Prepare metadata you would like to visualise as follows:
 ## Disclaimer and invitation
 This software is provided 'as is', without any warranty. At this time, the source code is not publicly available. 
 
-I am interested to learn about your experiences. Does it help to visualise your SharePoint library structure? Do you encounter any bugs or have an idea for a new feature? Don't hesitate to open an [issue](https://github.com/markhm/sharepoint-treebrowser/issues) or send a message.  
+I am interested to learn about your experiences. Does it help to visualise your SharePoint library structure? Do you encounter any bugs or have an idea for a new feature? Don't hesitate to open an [issue](https://github.com/markhm/sharepoint-treebrowser/issues) or get in touch.  
 
 ## Download
 The SharePoint Tree Browser is available via [this link](https://github.com/markhm/sharepoint-treebrowser/releases/download/20190114/SharePointTreeBrowser-release-20190114.zip).
@@ -57,7 +57,7 @@ The zip archive contains the fat jar binary, as well as a 'data' directory with 
 
 ## Version history
 - 20190102 - Testing the release process and the first release (discontinued).
-- 20190114 - Support for xlsx files, Multi-langeuage support, Removed need to rename sheet. 
+- 20190114 - Support for xlsx files (iso xls), Multi-language support, Removed need to rename sheet.
 
 ## Known issues
 - Search does not support looking up consecutive keywords well. Change the depth on the depth slider to change to update the visualisation to the new search results, or restart the application.
