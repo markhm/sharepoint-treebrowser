@@ -15,7 +15,7 @@ The SharePoint TreeBrowser features:
 - Turn on coloring layers to visualise:
   - **Document age** - Modification date minus Creation date
   - **Modification year** - When was the document last modified
-  - **Metadata top 10** - Ten most frequently used metadata elements per column
+  - _**Metadata top 10**_ - Ten most frequently used metadata elements per column
 - Support for different languages by indicating the necessary columns via the 'SharePoint_instance.properties' file
 
 How to use:
