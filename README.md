@@ -7,7 +7,7 @@ _Have your SharePoint libraries become slightly unorganised?_
 This tool visualises exported metadata exported from one or more SharePoint libraries. It will help you understand 1) where these documents are in in the library hierarchy, 2) what their metadata is, 3) which structure and governing rules might be missing and 4) what needs to be done to bring a bit of order and keep your teams productive.
 
 ## Features and how to use
-The SharePoint TreeBrowser features:
+The SharePoint Tree Browser features:
 - Tree-based visualisation of documents in one or more SharePoint libraries
 - Seamless zooming in/out to quickly understand large data structures and their relevant details
 - Selecting Degree-of-Interest depth, to show more or less nodes surrounding the selected note
