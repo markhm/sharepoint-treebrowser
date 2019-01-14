@@ -43,7 +43,8 @@ Based on <a href="http://prefuse.org">prefuse</a>, a visualisation library for J
 Prepare metadata you would like to visualise as follows:
   1. Create a custom view in the SharePoint library where all (relevant) columns are selected
   2. Export the metadata to Excel and save as xlsx.
-  4. Place the xls file in a subdirectory called 'data'
+  3. Place the xlsx file(s) in a subdirectory called 'data'
+  4. Modify the data/SharePoint_instance.properties file as needed to indicate the correct column names
   5. Start the jar file with 'java -jar SharePointTreeBrowser-[release].jar'
   
 ## Download
