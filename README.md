@@ -6,8 +6,6 @@ _Have your SharePoint libraries become slightly unorganised?_
 
 This tool visualises exported metadata exported from one or more SharePoint libraries. It will help you understand 1) where these documents are in in the library hierarchy, 2) what their metadata is, 3) which structure and governing rules might be missing and 4) what needs to be done to bring a bit of order and keep your teams productive.
 
-_Currently, the SharePoint Tree Browser only supports a limited number of metadata columns in Danish, see below._
-
 ## Features and how to use
 The SharePoint TreeBrowser features:
 - Tree-based visualisation of documents in one or more SharePoint libraries
@@ -48,9 +46,9 @@ Prepare metadata you would like to visualise as follows:
   5. Start the jar file with 'java -jar SharePointTreeBrowser-[release].jar'
   
 ## Download
-The SharePoint Tree Browser is available as executable jar via [this link](https://github.com/markhm/sharepoint-treebrowser/blob/master/binaries/SharePointTreeBrowser-20190102.jar).
+The SharePoint Tree Browser is available via [this link](https://github.com/markhm/sharepoint-treebrowser/releases/download/20190114/SharePointTreeBrowser-release-20190114.zip).
 
-Note that the zip archive contains a 'data' directory with an example SharePoint export and a configuration file.
+The zip archive contains the fat jar binary, as well as a 'data' directory with an example SharePoint export and a configuration file.
 
 ## Version history
 - 20190102 - Testing the release process and the first release (discontinued).
