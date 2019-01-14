@@ -15,9 +15,9 @@ The SharePoint TreeBrowser features:
 - Selecting Degree-of-Interest depth, to show more or less nodes surrounding the selected note
 - Searching for documents based on keywords, expanding the tree to show search results
 - Turn on coloring layers to visualise:
-  - **Document age** - Change date minus Creation date
-  - **Modification year**
-  - Metadata top 10 - Most frequently used metadata elements per column
+  - **Document age** - Modification date minus Creation date
+  - **Modification year** - When was the document last modified
+  - **Metadata top 10** - Ten most frequently used metadata elements per column
 - Support for different languages by indicating the necessary columns via the 'SharePoint_instance.properties' file
 
 How to use:
