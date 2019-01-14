@@ -44,7 +44,12 @@ Prepare metadata you would like to visualise as follows:
   3. Place the xlsx file(s) in a subdirectory called 'data'
   4. Modify the data/SharePoint_instance.properties file as needed to indicate the correct column names
   5. Start the jar file with 'java -jar SharePointTreeBrowser-[release].jar'
-  
+
+## Disclaimer and invitation
+This software is provided 'as is', without any warranty. At this time, the source code is not publicly available. 
+
+I am interested to learn about your experiences. Does it help to visualise your SharePoint library structure? Do you encounter any bugs or have an idea for a new feature? Don't hesitate to open an [issue](https://github.com/markhm/sharepoint-treebrowser/issues) or send a message.  
+
 ## Download
 The SharePoint Tree Browser is available via [this link](https://github.com/markhm/sharepoint-treebrowser/releases/download/20190114/SharePointTreeBrowser-release-20190114.zip).
 
