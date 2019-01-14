@@ -1,4 +1,4 @@
-SharePoint Tree Browser (DK-DA version)
+SharePoint Tree Browser
 ======================
 _Have your SharePoint libraries become slightly unorganised?_
 
@@ -18,20 +18,7 @@ The SharePoint TreeBrowser features:
   - **Document age** - Change date minus Creation date
   - **Modification year**
   - Metadata top 10 - Most frequently used metadata elements per column
-- Currently supports the following Danish metadata colums:
-  - **Navn** - Name
-  - **Sti** - Tree position
-  - **Oprettet** - Creation date
-  - **Oprettet af** - Created by
-  - **Ændret** - Change date
-  - **Ændret af** - Changed by
-  - **Arbejdspakke** - Work package
-  - **Produkt** - Product
-  - **Produkt type** - Product type
-  - **Flyt til arkiv** - Archived (Y/N)
-  - **Forretningsenhed** - Business unit
-  - **Indholdstype** - Content type
-Please let me know if you would like to see other languages supported, in particular: send me the names of the metadata columns. 
+- Support for different languages by indicating the necessary columns via the 'SharePoint_instance.properties' file
 
 How to use:
 - Observe that the tree at the first level shows the repository, followed by the particular library at the next level.
@@ -56,15 +43,17 @@ Based on <a href="http://prefuse.org">prefuse</a>, a visualisation library for J
 Prepare metadata you would like to visualise as follows:
   1. Create a custom view in the SharePoint library where all (relevant) columns are selected
   2. Export the metadata to Excel and save as xlsx.
-  3. Open the xlsx in Excel, rename the sheet to 'Sheet' and Save as xls (older data format).
   4. Place the xls file in a subdirectory called 'data'
   5. Start the jar file with 'java -jar SharePointTreeBrowser-[release].jar'
   
 ## Download
 The SharePoint Tree Browser is available as executable jar via [this link](https://github.com/markhm/sharepoint-treebrowser/blob/master/binaries/SharePointTreeBrowser-20190102.jar).
 
+Note that the zip archive contains a 'data' directory with an example SharePoint export.  
+
 ## Version history
-- 20190102 - Testing the release process and the first release.
+- 20190102 - Testing the release process and the first release (discontinued).
+- 20190114 - Support for xlsx files, Multi-langeuage support, Removed need to rename sheet. 
 
 ## Known issues
 - Search does not support looking up consecutive keywords well. Change the depth on the depth slider to change to update the visualisation to the new search results, or restart the application.
